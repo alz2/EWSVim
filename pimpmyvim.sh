@@ -19,3 +19,5 @@ export LDFLAGS="-L$HOME/EWSVim/ncurses/lib"
 ./configure --enable-gui=no --without-x -with-features=huge --prefix=$HOME/Applications/vim --with-tlib=ncurses --enable-pythoninterp=yes
 make && make install
 
+# prepend vim 8 to $PATH so vim8 is default
+echo "PATH=$HOME/EWSVim/vim/bin:$PATH" >> ~/.bashrc
