@@ -1,6 +1,7 @@
 # EWSVim
 Installation
 ```
+cd ~
 git clone https://github.com/alz2/EWSVim.git
 cd EWSVim/ 
 ./pimpmyvim.sh
