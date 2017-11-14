@@ -79,3 +79,7 @@ filetype plugin indent on    \" required
 source ~/.bashrc
 # INSTALLING PLUGINS
 vim +PluginInstall +qall
+
+# install YCM
+cd ~/.vim/bundle/YouCompleteMe
+./install.py --clang-completer --system-libclang --system-boost
