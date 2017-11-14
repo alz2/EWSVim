@@ -1,4 +1,8 @@
 # EWSVim
+![image](https://user-images.githubusercontent.com/21376548/32794373-47e1d16a-c92e-11e7-9a02-69beabd0cb4e.png)
+Tired of vanilla EWS Vim? Why not upgrade to vim 8 and install awesome plugins such as YCM to make life easier? Oh wait, we don't have EWS sudo access. :( BUT DON'T WORRY, I GOTCHU
+
+
 Installation
 ```
 cd ~
