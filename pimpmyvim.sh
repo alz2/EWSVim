@@ -1,4 +1,9 @@
 # author: alz2@illinois.edu
+EWS=$(uname -a)
+if [[ $EWS != *"ews.illinois"* ]]; then
+    echo "This isn't an ews machine... If you're sure you want to run this code comment out the first 4 lines of pimpmyvim.sh "
+    exit
+fi
 echo "Pimping your vim... "
 
 # get ncurses
