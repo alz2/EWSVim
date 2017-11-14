@@ -18,7 +18,7 @@ tar -xzf vim-8.0.tar.bz2
 cd vim80
 export LDFLAGS="-L$HOME/EWSVim/ncurses/lib"
 # configure vim with python interpreation
-./configure --enable-gui=no --without-x -with-features=huge --prefix=$HOME/Applications/vim --with-tlib=ncurses --enable-pythoninterp=yes
+./configure --enable-gui=no --without-x -with-features=huge --prefix=$HOME/EWSVim/vim --with-tlib=ncurses --enable-pythoninterp=yes
 make && make install
 
 # prepend vim 8 to $PATH so vim8 is default
