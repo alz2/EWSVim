@@ -19,7 +19,7 @@ make && make install
 cd ..
 echo "GETTING VIM 8"
 wget ftp://ftp.home.vim.org/pub/vim/unix/vim-8.0.tar.bz2
-tar -xzf vim-8.0.tar.bz2
+tar -xvjf vim-8.0.tar.bz2
 cd vim80
 export LDFLAGS="-L$HOME/EWSVim/ncurses/lib"
 # configure vim with python interpreation
