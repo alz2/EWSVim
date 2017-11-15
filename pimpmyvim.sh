@@ -88,3 +88,5 @@ vim +PluginInstall +qall
 # install YCM
 cd ~/.vim/bundle/YouCompleteMe
 ./install.py --clang-completer --system-libclang --system-boost
+
+echo "YOUR VIM HAS BEEN PIMPED. LOG OUT AND LOG BACK IN TO SEE CHANGES!! :)"
