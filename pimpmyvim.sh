@@ -87,4 +87,4 @@ vim +PluginInstall +qall
 
 # install YCM
 cd ~/.vim/bundle/YouCompleteMe
-./install.py --clang-completer --system-libclang --system-boost
+./install.py --clang-completer
