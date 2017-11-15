@@ -22,4 +22,4 @@ cd EWSVim/
 [Vim without sudo](http://hep-comp.blogspot.com/2011/07/vim-install-no-root-privileges.html)
 
 # Special Thanks
-Thanks to [Kyle](https://github.com/patelkyle022) for letting me test my script on his ews maching :)
+Thanks to [Kyle](https://github.com/patelkyle022) for letting me test my script on his EWS Machine :)
