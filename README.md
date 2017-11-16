@@ -5,7 +5,6 @@ Tired of vanilla EWS Vim? Why not upgrade to vim 8 and install awesome plugins s
 
 Installation
 ```
-cd ~
 git clone https://github.com/alz2/EWSVim.git
 cd EWSVim/ 
 ./pimpmyvim.sh
