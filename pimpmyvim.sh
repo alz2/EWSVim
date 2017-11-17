@@ -14,7 +14,7 @@ wget https://ftp.gnu.org/pub/gnu/ncurses/ncurses-6.0.tar.gz
 # untar
 tar -xzf ncurses-6.0.tar.gz
 cd ncurses-6.0/
-./configure --prefix=$currdir/EWSVim/ncurses
+./configure --prefix=$currdir/ncurses
 make && make install
 
 # install Vim
@@ -23,14 +23,14 @@ echo "GETTING VIM 8"
 wget ftp://ftp.home.vim.org/pub/vim/unix/vim-8.0.tar.bz2
 tar -xvjf vim-8.0.tar.bz2
 cd vim80
-export LDFLAGS="-L$currdir/EWSVim/ncurses/lib"
+export LDFLAGS="-L$currdir/ncurses/lib"
 # configure vim with python interpreation
-./configure --enable-gui=no --without-x -with-features=huge --prefix=$currdir/EWSVim/vim --with-tlib=ncurses --enable-pythoninterp=yes
+./configure --enable-gui=no --without-x -with-features=huge --prefix=$currdir/vim --with-tlib=ncurses --enable-pythoninterp=yes
 make && make install
 
 # prepend vim 8 to $PATH so vim8 is default
 echo "SETTING VIM 8 AS DEFAULT"
-echo "PATH="$currdir"/EWSVim/vim/bin:"'$PATH' >> ~/.bashrc
+echo "PATH="$currdir"/vim/bin:"'$PATH' >> ~/.bashrc
 
 echo "SETTING UP VUNDLE"
 # cloning vundle
