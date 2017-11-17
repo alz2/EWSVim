@@ -29,4 +29,4 @@ To have the newly built vim8 as your default, this script prepends the path to t
 [Vim without sudo](http://hep-comp.blogspot.com/2011/07/vim-install-no-root-privileges.html)
 
 # Special Thanks
-Thanks to [Kyle](https://github.com/patelkyle022) for letting me test my script on his EWS Machine :)
+Thanks to [Kyle](https://github.com/patelkyle022) for being one of the first people to trust my script with an EWS Machine :)
